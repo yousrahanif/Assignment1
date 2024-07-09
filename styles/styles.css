@@ -308,3 +308,19 @@ text-align: left;
 text-decoration-line: underline;
 
 }
+#support{
+    width: 1140px;
+    height:300px;
+    margin: 0 auto;
+   
+    margin-top: 200px;
+    margin-bottom: 30px;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+background-size: auto;
+
+}
+.support-parent{
+   
+
+}
