@@ -476,7 +476,7 @@ cursor: pointer;
    
     
     text-align: center;
-    margin-left: 330px;
+    
 
 }
 .footer-right-div{
@@ -495,6 +495,7 @@ cursor: pointer;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center; 
+    margin-left: 330px;
 }
 .contact-with-me-anchor{
     text-decoration: none;
