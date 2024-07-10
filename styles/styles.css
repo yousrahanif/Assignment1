@@ -21,7 +21,7 @@ font-weight: 800;
 line-height: 33px;
 letter-spacing: 0%;
 text-align: left;
-margin-left: 330px;
+margin-left: 200px;
 }
 
 #headerId .header-button {
@@ -33,7 +33,7 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
-margin-right: 400px;
+margin-right: 200px;
 }
 
 #banner-section {
@@ -483,7 +483,7 @@ cursor: pointer;
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    margin-right: 620px;
+    margin-right: 200px;
     
 }
 
@@ -495,7 +495,7 @@ cursor: pointer;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center; 
-    margin-left: 330px;
+    margin-left: 200px;
 }
 .contact-with-me-anchor{
     text-decoration: none;
