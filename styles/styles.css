@@ -21,6 +21,7 @@ font-weight: 800;
 line-height: 33px;
 letter-spacing: 0%;
 text-align: left;
+margin-left: 330px;
 }
 
 #headerId .header-button {
@@ -32,6 +33,7 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+margin-right: 400px;
 }
 
 #banner-section {
