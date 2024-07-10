@@ -454,6 +454,7 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+cursor: pointer;
 
 }
 #footer-parent{
@@ -482,4 +483,14 @@ text-align: center;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center; 
+}
+.contact-with-me-anchor{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
 }
