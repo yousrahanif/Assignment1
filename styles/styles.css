@@ -43,6 +43,7 @@
     line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
+    font-family: Azeret Mono;
 }
 
 #banner-section .banner-desc {
@@ -53,6 +54,7 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    font-family: Azeret Mono;
 }
 
 #banner-section .banner-button {
@@ -68,15 +70,17 @@
 
     background: rgb(13, 19, 33);
     cursor: pointer;
+    font-family: Azeret Mono;
 }
 
 #section-whyweb {
     margin: 0 auto;
     width: 1140px;
-    height: 1100px;
+    height: 1250px;
     border: 5px solid rgb(180, 180, 214);
     box-shadow: 0 0 20px rgb(178, 178, 218);
     margin-top: 70px;
+    background-color: rgb(232, 228, 228);
 
 }
 #section-whyweb .first-div{
@@ -84,6 +88,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
 }
 #section-whyweb .first-div-title{
     margin-top: 30px;
@@ -95,6 +100,7 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+font-family: Azeret Mono;
 
 }
 #section-whyweb .first-div-paragraph{
@@ -110,6 +116,7 @@ margin-top: 15px;
 margin-left: 20px;
 margin-right: 20px;
 margin-bottom: 60px;
+font-family: Azeret Mono;
     
 }
 #section-whyweb .second-div{
@@ -119,6 +126,8 @@ margin-bottom: 60px;
    margin-left: 55px;
    margin-right: 55px;
    margin-bottom: 60px;
+   background-color: rgb(242, 239, 239);
+   padding: 20px;
 }
 .writing-title{
     color: rgba(13, 19, 33, 0.7);
@@ -128,6 +137,7 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+font-family: Azeret Mono;
 
 }
 .writing-paragraph{
@@ -139,6 +149,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 margin-top: 20px;
+font-family: Azeret Mono;
 
 }
 .writing-button{
@@ -155,6 +166,7 @@ opacity: 0.7;
 padding: 12px 20px 12px 20px;
 margin-top: 20px;
 cursor: pointer;
+font-family: Azeret Mono;
 
 }
 
@@ -179,6 +191,7 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+font-family: Azeret Mono;
 
 }
 .inspiration-paragraph{
@@ -190,6 +203,7 @@ text-align: center;
     letter-spacing: 0%;
     text-align: center; 
     margin-top: 20px;
+    font-family: Azeret Mono;
 }
 .youtube-link{
     border: 1px solid gray;
@@ -204,6 +218,7 @@ text-align: center;
     margin: 0 auto;
     width: 1140px;
     height: 460px;
+    margin-top: 60px;
     
 }
 .target-leftDiv{
@@ -221,6 +236,7 @@ line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
 margin-top: 20px;
+font-family: Azeret Mono;
 
 }
 .parent-target-title{
@@ -238,6 +254,7 @@ text-align: center;
 margin-left: 70px;
 margin-right: 70px;
 margin-top: 10px;
+font-family: Azeret Mono;
 
 
 }
@@ -285,6 +302,7 @@ font-weight: 800;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+font-family: Azeret Mono;
 
 }
 .paragraph-logo{
@@ -295,6 +313,7 @@ font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
+font-family: Azeret Mono;
 
 }
 .link-logo{
@@ -306,6 +325,7 @@ line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
+font-family: Azeret Mono;
 
 }
 #support{
@@ -313,7 +333,7 @@ text-decoration-line: underline;
     height:300px;
     margin: 0 auto;
    
-    margin-top: 200px;
+    margin-top: 350px;
     margin-bottom: 30px;
     
 
@@ -328,6 +348,100 @@ text-decoration-line: underline;
     
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
    
 
+}
+.support-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.support-top-title{
+    color: rgb(255, 255, 255);
+
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+font-family: Azeret Mono;
+
+}
+.support-top-paragraph{
+    color: rgb(255, 255, 255);
+   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    font-family: Azeret Mono;
+    
+}
+.support-bottom{
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+
+}
+.support-bottom-textarea{
+    width: 508px;
+    height: 19px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+padding: 30px;
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.support-bottom-button{
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+   
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+#footer-parent{
+    width: 100%;
+    height: 36px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footer-right-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
 }
